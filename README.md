@@ -160,6 +160,12 @@ Context should include:
 - Additional child processes
 - Related network activity
 
+## Detection Tuning Opportunities
+
+Future improvements could include correlating encoded PowerShell execution with unusual parent processes, repeated execution attempts, and unexpected outbound network connections.
+
+These correlations could help analysts prioritize higher-risk activity while reducing false-positive alerts.
+
 ## Defensive Recommendations
 
 - Enable PowerShell Script Block Logging
